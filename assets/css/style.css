@@ -1285,6 +1285,15 @@ a {
     font-size: 1.3em;
     font-family: var(--font-poppins);
     font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-social-contatos {
+    width: 25px !important;
 }
 
 .logo-contato {

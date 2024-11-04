@@ -364,6 +364,10 @@
     .background-programacao-esquerdo {
         top: 2210px;
     }
+
+    .conteudo-contato2 h2 {
+        font-size: 1.4em;
+    }
 }
 
 @media (max-width: 375px) {
@@ -378,5 +382,21 @@
 
     .titulo-contato h1 {
         font-size: 2em;
+    }
+
+    .contato {
+        padding: 1rem 0rem 3rem 0rem;
+        height: 750px;
+    }
+
+    .conteudo-contato h2 {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 320px) {
+    .textos-sobre p {
+        font-size: 0.6rem;
+        margin: 24px 0;
     }
 }
