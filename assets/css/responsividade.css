@@ -1,0 +1,382 @@
+@media (max-width: 2000px) {
+
+    .contato {
+        background-size: contain;
+    }
+}
+
+@media (max-width: 1920px) {
+
+    .sobre {
+        height: 980px;
+    }
+
+    .background-segundo-bloco-esquerdo {
+        top: 1140px;
+    }
+
+    .background-segundo-bloco-direito {
+        top: 1580px;
+    }
+
+    .container-sobre {
+        max-width: 1040px;
+    }
+
+    .conteudo-sobre h1 {
+        font-size: 2.4em;
+    }
+    
+    .textos-sobre p {
+        font-size: 1.1rem;
+    }
+
+    .headline-programacao {
+        width: 1040px;
+    }
+
+    .background-programacao-direito {
+        top: 2620px;
+    }
+
+    .background-programacao-esquerdo {
+        top: 2600px;
+    }
+
+    .container-servicos {
+        max-width: 1040px;
+    }
+}
+
+@media (max-width: 1440px) {
+
+    .inicio {
+        height: 750px;
+    }
+
+    .background-top-inicio {
+        width: 285px;
+        height: 735px;
+    }
+
+    .background-bottom-inicio {
+        width: 176px;
+        height: 220px;
+        top: 590px;
+    }
+
+    .background-segundo-bloco-esquerdo {
+        top: 1030px;
+    }
+
+    .background-segundo-bloco-direito {
+        top: 1435px;
+    }
+
+    .background-programacao-direito {
+        top: 2460px;
+    }
+
+    .background-programacao-esquerdo {
+        top: 2435px;
+    }
+
+    .container-inicio {
+        max-width: 1024px;
+    }
+
+    .logo img {
+        width: 220px;
+    }
+
+    .container-sobre {
+        max-width: 800px;
+    }
+
+    .textos-sobre img {
+        width: 30px;
+    }
+
+    .textos-servicos img {
+        width: 30px;
+    }
+
+    .textos-sobre p {
+        font-size: 1rem;
+        margin: 13px 0;
+    }
+
+    .text-headline-programacao h2 {
+        font-size: 2.4em;
+    }
+
+    .titulo-servicos h1 {
+        font-size: 2.4em;
+    }
+
+    .textos-servicos p {
+        font-size: 1.1rem;
+    }
+
+    .destaque-inicio {
+        font-size: 1.4em;
+    }
+
+    .animacao-inicio img {
+        width: 465px;
+    }
+
+    .contato {
+        padding: 10rem 0rem 3rem 0rem;
+        height: 1250px;
+    }
+
+    .titulo-contato h1 {
+        font-size: 2.4em;
+    }
+
+    .conteudo-contato2 {
+        justify-content: space-around;
+    }
+
+    .conteudo-contato h2 {
+        font-size: 1.1em;
+    }
+
+    .imagem-contato {
+        width: 40%;
+    }
+
+    .conteudo-contato2 h2 {
+        font-size: 2.4em;
+    }
+}
+
+
+@media (max-width: 1024px) {
+
+    .background-segundo-bloco-esquerdo {
+        width: 160px;
+        height: 334px;
+        top: 624px;
+    }
+
+    .background-segundo-bloco-direito {
+        width: 200px;
+        height: 350px;
+        top: 1540px;
+    }
+
+    .background-programacao-direito {
+        width: 200px;
+        height: 310px;
+        top: 2520px;
+    }
+
+    .background-programacao-esquerdo {
+        width: 200px;
+        height: 380px;
+        top: 2480px;
+    }
+
+    .container-servicos {
+        max-width: 690px;
+    }
+
+    .conteudo-contato div {
+        width: 280px;
+        height: 80px;
+    }
+
+    .contato {
+        padding: 10rem 0rem 3rem 0rem;
+        height: 940px;
+    }
+
+    .headline-programacao {
+        width: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .inicio {
+        height: 600px;
+    }
+
+    .logo img {
+        width: 140px;
+    }
+
+    .animacao-inicio img {
+        width: 290px;
+    }
+
+    .background-top-inicio {
+        width: 225px;
+    }
+
+    .background-bottom-inicio {
+        width: 120px;
+        height: 170px;
+        top: 475px;
+    }
+
+    .background-segundo-bloco-esquerdo {
+        width: 120px;
+        height: 260px;
+        top: 508px;
+    }
+
+    .background-segundo-bloco-direito {
+        width: 120px;
+        height: 200px;
+        top: 1468px;
+    }
+
+    .background-programacao-direito {
+        top: 2368px;
+    }
+
+    .background-programacao-esquerdo {
+        width: 175px;
+        height: 330px;
+        top: 2350px;
+    }
+
+    .container-sobre {
+        max-width: 85%;
+    }
+
+    .container-programacao {
+        width: 85%;
+    }
+
+    .headline-programacao {
+        width: 100%;
+    }
+
+    .icone-programacao {
+        width: 17px;
+    }
+
+    .container-servicos {
+        max-width: 85%;
+    } 
+
+    .box-programacao h3 {
+        font-size: 0.7rem;
+    }
+
+    .box-programacao span {
+        font-size: 0.7rem;
+    }
+
+    .contato {
+        padding: 3rem 0rem 3rem 0rem;
+        height: 700px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .animacao-inicio img {
+        width: 160px;
+        z-index: 0;
+    }
+    .animacao-inicio {
+        position: relative;
+        z-index: -1;
+    }
+
+    .container-inicio {
+        flex-direction: column;
+    }
+
+    .destaque-inicio {
+        font-size: 2em;
+    }
+
+    .logo img {
+        width: 145px;
+        margin-top: 30px;
+    }
+
+    .container-sobre {
+        max-width: 95%;
+    }
+
+    .conteudo-sobre h1 {
+        font-size: 2em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .textos-sobre p {
+        font-size: 0.75rem;
+        margin: 13px 0;
+    }
+
+    .programacao {
+        height: 723px;
+    }
+
+    .headline-programacao {
+        margin-bottom: 3rem;
+    }
+
+    .text-headline-programacao h2 {
+        font-size: 2em;
+    }
+
+    .box-programacao h3 {
+        width: 55%;
+    }
+
+    .titulo-servicos h1 {
+        font-size: 2em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .textos-servicos p {
+        font-size: 0.7rem;
+    }
+
+    .conteudo-contato {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contato {
+        padding: 3rem 0rem 3rem 0rem;
+        height: 820px;
+    }
+
+    .conteudo-contato2 {
+        flex-direction: column;
+    }
+
+    .background-programacao-direito {
+        top: 2235px;
+    }
+
+    .background-programacao-esquerdo {
+        top: 2210px;
+    }
+}
+
+@media (max-width: 375px) {
+    .textos-sobre p {
+        font-size: 0.7rem;
+        margin: 13px 0;
+    }
+
+    .box-programacao h3 {
+        width: 51%;
+    }
+
+    .titulo-contato h1 {
+        font-size: 2em;
+    }
+}
