@@ -1,0 +1,28 @@
+name: Deploy Validation
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v2
+
+      - name: Verify required files
+        run: |
+          if [ ! -f "index.html" ]; then
+            echo "Error: index.html is missing."
+            exit 1
+          fi
+          if [ ! -d "assets/css" ]; then
+            echo "Error: CSS folder is missing in assets."
+            exit 1
+          fi
+          if [ ! -d "assets/js" ]; then
+            echo "Error: JS folder is missing in assets."
+            exit 1
+          fi
